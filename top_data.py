@@ -1,6 +1,7 @@
 # This gets top tracks and their audio features
 # Stores it in a dataframe
 # Returns dataframe
+# Pass correct auth token as input
 def top_data(tkn):
   sp = spotipy.Spotify(auth=token)
   # Create a DF to put data in
