@@ -1,7 +1,16 @@
+# Import spotipy
 import spotipy
 import sys
 import spotipy.util as util
-from __future__ import print_function
+from __future__ import print_function    # (at top of module)
 import json
 import time
 import pandas as pd
+from matplotlib import pyplot as plt
+import seaborn as sns
+from math import pi
+from random import randint
+import plotly
+import plotly.plotly as py
+import numpy as np
+from sklearn.cluster import KMeans
